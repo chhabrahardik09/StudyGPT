@@ -18,16 +18,14 @@ To run the platform, follow these steps:
 
 1.  Extract the downloaded zip file to a local directory on your machine.
 2.  Open your preferred code editor or IDE, such as Visual Studio Code or PyCharm.
-3. Open the project folder in your code editor or IDE.
+3.  Open the project folder in your code editor or IDE.
 4.  Install the dependencies by running `npm install` in the my-app directory.
-5.  Install the dependencies by running `npm install` in the server directory.
 
 How to run?
 
-1.  Start the server by running `node server.js` in the server directory.
-2.  Start the client by running `npm start` in the my-app directory.
-3.  Access the platform at `http://localhost:3000` in your web browser.
-3.  Backend will be running at `http://localhost:8080` in your web browser.
+1.  Start the client by running `npm start` in the my-app directory.
+2.  Access the platform at `http://localhost:3000` in your web browser.
+3.  Backend is hosted and running at `https://convai-submission.onrender.com`.
 
 
 ### Kindly check out the presentation for more info on my project.
