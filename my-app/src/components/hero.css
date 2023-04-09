@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5rem;
+  
+}
+#heading{
+    font-size: 3.2rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.subheadingHero{
+  font-weight: 400;
+font-size: 1rem;
+line-height: 25px;
+color: #333333;
+border-left: 2px solid #FFA113;
+padding-left: 1rem;
+margin: 1rem 0;
+}
+
+.typewriter h1 {
+  font-size: 3.2rem;
+  color: #000000;
+  font-weight: 700;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.button{
+  background-color: #2153F9;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  border: none;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #0029b1;
+}

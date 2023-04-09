@@ -1,0 +1,40 @@
+.timeline{
+    /* margin: 5rem auto; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10rem; */
+    margin-top: 3rem;
+}
+
+.timelineHeading {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+  }
+  .timelineSubheading {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0;
+    /* text-align: right; */
+
+  }
+
+  .timelineSpan{
+    color: chocolate;
+  }
+
+
+  .about > h1{
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 2.2rem 0;
+  }
+
+  .about > h6{
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
+    margin: 2.2rem auto;
+  }
