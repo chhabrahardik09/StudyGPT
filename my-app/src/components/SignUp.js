@@ -22,7 +22,7 @@ const SignUp= ()=> {
       console.log("vals:",values);
         const {name, username, password} = values;
 
-        const res = await fetch("http://localhost:3000/register", {
+        const res = await fetch("https://convai-submission.onrender.com/register", {
             method: "POST",
             headers: {
                 "Content-Type" : "application/json"

@@ -39,7 +39,7 @@ function Login() {
 
     const loginInfo = { username: uname.value, password: pass.value };
     axios
-      .post("http://localhost:8080/login", loginInfo)
+      .post("https://convai-submission.onrender.com/login", loginInfo)
       .then((Response) => {
         console.log(Response.data.success);
         if (Response.data.success == 1) {
