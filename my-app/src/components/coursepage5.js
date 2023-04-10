@@ -45,7 +45,7 @@ export default function CoursePage5() {
   const getAPI = async () => {
     console.log(process.env.OPENAI_API_KEY);
     const configuration = new Configuration({
-      apiKey: "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",
+      apiKey: "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",
     });
     const openai = new OpenAIApi(configuration);
     await openai
@@ -103,7 +103,7 @@ export default function CoursePage5() {
   const onClickSubmit = () => {
     const checkSatisfaction = async () => {
       const configuration = new Configuration({
-        apiKey: "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",
+        apiKey: "sk-euCY6Oh82CmaRkpPPC1lT3BlbkFJzNFZWhH7yOv26it2Nx8Kj",
       });
       const openai = new OpenAIApi(configuration);
       await openai
